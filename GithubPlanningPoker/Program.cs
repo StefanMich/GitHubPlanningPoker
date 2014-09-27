@@ -10,6 +10,10 @@ namespace GithubPlanningPoker
     {
         static void Main(string[] args)
         {
+            GithubIssues g = new GithubIssues();
+            g.PostIssue("Test issue", "Der er kun problemer","stufkan","testpokerrepo");
+
+            Console.ReadKey();
         }
     }
 }
