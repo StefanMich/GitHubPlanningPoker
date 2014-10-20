@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GithubPlanningPoker", "Gith
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfFrontEnd", "WpfFrontEnd\WpfFrontEnd.csproj", "{051AD36A-E273-4DA6-BC97-908F4CAA3DF0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleFrontEnd", "ConsoleFrontEnd\ConsoleFrontEnd.csproj", "{BE3F775A-4EA4-4596-9648-9D656AB9CF02}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{051AD36A-E273-4DA6-BC97-908F4CAA3DF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{051AD36A-E273-4DA6-BC97-908F4CAA3DF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{051AD36A-E273-4DA6-BC97-908F4CAA3DF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE3F775A-4EA4-4596-9648-9D656AB9CF02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE3F775A-4EA4-4596-9648-9D656AB9CF02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE3F775A-4EA4-4596-9648-9D656AB9CF02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE3F775A-4EA4-4596-9648-9D656AB9CF02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
