@@ -16,20 +16,20 @@ namespace GithubPlanningPoker
             string user = Console.ReadLine();
             string pwd = Console.ReadLine();
 
-            github = new GitHubClient(new ProductHeaderValue("GithubPlanningPoker")) { Credentials = new Credentials(user,pwd)};
+            github = new GitHubClient(new ProductHeaderValue("GithubPlanningPoker")) { Credentials = new Credentials(user, pwd) };
 
         }
 
 
-        public async void PostIssue(string title,string content, string username, string repo)
+        public async void PostIssue(string title, string content, string username, string repo)
         {
-            var issuesclient =  github.Issue;
+            var issuesclient = github.Issue;
             var repository = await github.Repository.Get(username, repo);
 
             NewIssue n = new NewIssue(title) { Body = content };
             var issue = await issuesclient.Create(repository.Owner.Login, repository.Name, n);
 
-            Console.WriteLine(issue !=null ? "Succes" : "Failure");
+            Console.WriteLine(issue != null ? "Succes" : "Failure");
             Console.ReadKey();
         }
     }
